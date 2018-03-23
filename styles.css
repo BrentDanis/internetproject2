@@ -1,0 +1,266 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper {
+	background-color: white;
+	width: 970px;
+	height: 1000px;
+	margin: 10px;
+}
+#header {
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+}
+#header img {
+	height: 100px;
+	width: 100px;
+	/*margin-top: 25px;*/
+	display: inline-block;
+	position: relative;
+	top: 25px;
+}
+#header h1 {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 60px;
+	color: grey;
+	font-family: sans-serif;
+}
+#header span {
+	color: #184e7a
+}
+#main {
+	width: 100%;
+	height: 900px;
+	vertical-align: top;
+	background: linear-gradient(#f9f9f9, #ffffff);
+}
+#main-top {
+	background-color: #286e9e;
+	background: linear-gradient(#286e9e, #668eaf, #286e9e);
+	height: 50px;
+	width: 100%;
+}
+#main-top h1 {
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-top: 15px;
+	margin-left: 15px;
+	vertical-align: top;
+}
+#main-left {
+	width: 200px;
+	height: 800px;
+	display: inline-block;
+	margin-left: 5px;
+}
+#main-left-text h4 {
+	font-family: sans-serif;
+	margin-top: 15px;
+}
+#main-left-text h4 span {
+	color: red;
+}
+#main-left-text p {
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+#main-left-text p span {
+	color: #286e9e;
+}
+#main-left-buttons {
+	/*background-color: yellow;*/
+	width: 200px;
+	height: 105px;
+	margin-top: 15px;
+	border-bottom: 2px solid grey;
+	display: block;
+}
+#main-left-buttons button {
+	display: block;
+	height: 40px;
+	width: 190px;
+	margin-top: 3px;
+	margin-left: 5px;
+	border-radius: 10px;
+	color: white;
+	font-size: 17px;
+	box-shadow: 2px 2px 8px #888888;
+}
+#watchbutton {
+	background-color: #3e81ae;
+	border-color: #3e81ae;
+	background: linear-gradient(#80acce, #3e81ae);
+}
+#morebutton {
+	background-color: #f0892c;
+	border-color: #f0892c;
+	background: linear-gradient(#f2b480, #f0892c);
+}
+img[src="ad_background.png"] {
+	width: 200px;
+	margin-top: 30px;
+	position: absolute;
+}
+#imagetext {
+	color: white;
+	font-family: sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 15px;
+	position: relative;
+	top: 50px;
+}
+img[src="ninja.png"] {
+	width: 80px;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 53px;
+}
+#left-image button {
+	position: absolute;
+	margin-top: 186px;
+	margin-left: 9px;
+	height: 28px;
+	width: 180px;
+	color: white;
+	background: linear-gradient(#7ad0df, #25c1df);
+	border-color: #25c1df;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#main-right {
+	width: 760px;
+	height: 800px;
+	vertical-align: top;
+	display: inline-block;
+}
+#main-right-header {
+	width: 760px;
+	height: 90px;
+	border-bottom: 3px solid black;
+}
+#main-right-header-1 {
+	vertical-align: top;
+	width: 378px;
+	height: 100px;
+	/*margin-top: 10px;
+	margin-left: 10px;*/
+	display: inline-block;
+}
+#main-right-header-1 img {
+	height: 25px;
+	width: 25px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+#main-right-header-1 p {
+	vertical-align: top;
+	display: inline-block;
+	color: #2f6da2;
+	font-family: sans-serif;
+	margin-top: 19px;
+	margin-left: 1px;
+}
+#main-right-header-2 {
+	display: inline-block;
+	vertical-align: top;
+	width: 378px;
+	height: 100px;
+}
+#main-right-header-2 img {
+	vertical-align: top;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+#main-right-header-2 p {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+#main-right-header-2 h3 {
+	display: inline-block;
+	color: #25c0df;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+#main-right-header-2 div {
+	width: 220px;
+	height: 65px;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#main-content {
+	width: 760px;
+	height: 900px;
+}
+#main-content h3 {
+	color: #23669e;
+	font-family: sans-serif;
+}
+#main-content span {
+	color: #25c0df;
+}
+#main-content ul {
+	margin-left: 50px;
+}
+#main-content img {
+	height: 200px;
+	margin-left: 100px;
+}
+#main-content ol {
+	margin-left: 50px;
+}
+#bigthreebox {
+	display: inline-block;
+	background-color: white;
+	width: 750px;
+	height: 200px;
+	border-top: 5px solid blue;
+	border-left: 5px solid blue;
+	border-right: 5px solid blue;
+	margin-top: 20px;
+}
+#bigthreebox img {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#bigthreebox div {
+	width: 600px;
+	vertical-align: top;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
